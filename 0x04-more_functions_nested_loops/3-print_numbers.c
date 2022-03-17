@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - check the code for Holberton School students.
