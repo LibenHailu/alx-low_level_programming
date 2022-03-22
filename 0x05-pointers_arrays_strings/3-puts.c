@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * _puts - Prints a string followed by a new line.
+ *
+ * @str: store string.
+ * Return: Always 0.
+ */
 int _puts(const char *string)
 {
     int i = 0;
@@ -13,13 +19,4 @@ int _puts(const char *string)
        return EOF;
    }
    return 1; 
-}
-
-int main(void)
-{
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";	_puts(str);
-	return (0);
-
 }

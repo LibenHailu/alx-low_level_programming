@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
 int string_length(char *pointer)
 {
 	int c = 0;
@@ -11,6 +16,10 @@ int string_length(char *pointer)
 	return (c);
 }
 
+/**
+ * puts_half - print half of a string.
+ * @str: character
+ */
 void puts_half(char *str)
 {
 	int m, n, i, j;

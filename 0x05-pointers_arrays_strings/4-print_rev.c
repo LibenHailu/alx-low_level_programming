@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+
+/**
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
 int string_length(char *pointer)
 {
         int c = 0;
@@ -11,7 +17,11 @@ int string_length(char *pointer)
         return (c);
 }
 
-
+/**
+ * print_rev - prints a string in reverse.
+ *
+ * @s: store the string.
+ */
 void print_rev(char *s)
 {
 	int i;
